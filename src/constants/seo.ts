@@ -1,4 +1,4 @@
-import type { Locale } from '@/i18n/request'
+import type { Locale } from 'next-intl'
 
 export const SITE_URL = 'https://treenshoter-website.vercel.app'
 export const SITE_NAME = 'Treenshoter'
