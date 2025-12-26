@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Treenshoter - Capture, manage and organize your screenshots",
+    "description": "Minimalist and powerful app for instant screen capture, with organized library and annotation tools."
+  },
+  "common": {
+    "download": "Download",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "close": "Close",
+    "open": "Open",
+    "language": "Language",
+    "theme": "Theme",
+    "toggleTheme": "Toggle theme"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "download": "Download",
+    "toggleMenu": "Toggle menu",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Capture, manage and organize your screenshots",
+    "subtitle": "Minimalist and powerful app for instant screen capture, with organized library and annotation tools.",
+    "cta": "Download now",
+    "ctaSecondary": "View features"
+  },
+  "features": {
+    "comingSoon": "Coming soon",
+    "title": "Powerful features",
+    "subtitle": "Everything you need to capture and manage screenshots efficiently",
+    "instantCapture": {
+      "title": "Instant Capture",
+      "description": "Global keyboard shortcuts for quick capture at any time. Support for full screen or region selection."
+    },
+    "regionSelection": {
+      "title": "Region Selection",
+      "description": "Choose between full screen capture or select a specific region with precision."
+    },
+    "organizedLibrary": {
+      "title": "Organized Library",
+      "description": "Manage all your screenshots in an intuitive library with preview, search and organization."
+    },
+    "annotations": {
+      "title": "Annotations & Editing",
+      "description": "Integrated drawing tools to add annotations, arrows, shapes and text to your screenshots."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform",
+      "description": "Available for macOS, Windows and Linux. Works perfectly on any operating system."
+    },
+    "minimalist": {
+      "title": "Minimalist Interface",
+      "description": "Clean design focused on productivity, without distractions. Intuitive and easy to use interface."
+    }
+  },
+  "screenshots": {
+    "title": "See Treenshoter in action",
+    "subtitle": "Elegant interface and powerful features",
+    "zoomIn": "Zoom in (Ctrl/Cmd + Scroll or +)",
+    "zoomOut": "Zoom out (Ctrl/Cmd + Scroll or -)",
+    "resetZoom": "Reset zoom (Double click or 0)",
+    "close": "Close (ESC)",
+    "zoomHint": "Ctrl/Cmd + Scroll to zoom • Double click to reset",
+    "zoomHintMobile": "Pinch with two fingers to zoom"
+  },
+  "download": {
+    "title": "Download Treenshoter",
+    "subtitle": "Available for all major platforms",
+    "macos": "macOS",
+    "windows": "Windows",
+    "linux": "Linux",
+    "downloadButton": "Download for {platform}",
+    "version": "Version {version}",
+    "comingSoon": "Coming soon",
+    "available": "Available",
+    "recommended": "Recommended",
+    "multipleOptionsDescription": "Choose the download format for {platform}",
+    "versionLabel": "Version:",
+    "sizeLabel": "Size:",
+    "requirementsLabel": "Requirements:",
+    "requirements": {
+      "macos": "macOS 10.15 or higher",
+      "windows": "Windows 10 or higher",
+      "linux": "Linux (multiple distributions)"
+    },
+    "installationInstructions": {
+      "title": "Installation Instructions",
+      "macos": {
+        "title": "macOS",
+        "steps": {
+          "1": "Download the .dmg file",
+          "2": "Open the file and drag Treenshoter to the Applications folder",
+          "3": "On first launch, you may need to allow the app in security settings"
+        }
+      },
+      "windows": {
+        "title": "Windows",
+        "steps": {
+          "1": "Download the .exe file",
+          "2": "Run the installer and follow the instructions",
+          "3": "Treenshoter will be installed and available in the Start menu"
+        }
+      },
+      "linux": {
+        "title": "Linux",
+        "description": "Treenshoter is available in multiple formats for different Linux distributions:",
+        "steps": {
+          "1": "AppImage: Universal, works on any distribution. Make the file executable and run it.",
+          "2": "DEB: For Debian/Ubuntu. Install with: sudo dpkg -i treenshoter_1.0.0_amd64.deb",
+          "3": "RPM: For Red Hat/Fedora. Install with: sudo rpm -i treenshoter-1.0.0.x86_64.rpm",
+          "4": "PACMAN: For Arch Linux. Install with: sudo pacman -U treenshoter-1.0.0.pacman",
+          "5": "FreeBSD: For FreeBSD systems. Follow the specific instructions for your distribution."
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About Treenshoter",
+    "description": "Treenshoter is a minimalist application developed with Electron to capture, manage and organize screenshots efficiently. Focused on productivity and simplicity, it offers all the necessary tools without complications.",
+    "tech": "Technologies",
+    "author": "Author",
+    "license": "License",
+    "copyright":"© {year} Treenshoter. All rights reserved."
+  },
+  "footer": {
+    "description": "Minimalist app for screenshot capture and management",
+    "links": {
+      "home": "Home",
+      "features": "Features",
+      "about": "About",
+      "download": "Download"
+    },
+    "copyright": "© {year} Treenshoter. All rights reserved."
+  },
+  "languages": {
+    "pt": "Portuguese",
+    "en": "English"
+  },
+  "themes": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
+

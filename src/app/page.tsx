@@ -1,7 +1,15 @@
-export default function Home() {
+import { Download } from '@/components/sections/download'
+import { Features } from '@/components/sections/features'
+import { Hero } from '@/components/sections/hero'
+import { Screenshots } from '@/components/sections/screenshots'
+
+export default async function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+    <>
+      <Hero />
+      <Features />
+      <Screenshots />
+      <Download />
+    </>
+  )
 }
