@@ -125,7 +125,9 @@ export default async function DownloadPage() {
                             {download.description}
                           </p>
                         </div>
-                        <Link href={download.url} download>
+                        <Link
+                          href={`/api/download/${platform.key}?type=${download.id}`}
+                        >
                           <Button size="icon" className="ml-4">
                             <DownloadIcon className="h-4 w-4" />
                           </Button>

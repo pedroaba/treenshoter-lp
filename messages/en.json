@@ -115,6 +115,49 @@
           "5": "FreeBSD: For FreeBSD systems. Follow the specific instructions for your distribution."
         }
       }
+    },
+    "thankYou": {
+      "title": "Thank you for downloading Treenshoter!",
+      "message": "Your download should start automatically in a moment. If it doesn't start, please use the direct link below.",
+      "downloading": "Downloading...",
+      "manualDownload": "Manual download",
+      "directLink": "Direct link",
+      "fileInfo": {
+        "title": "File information",
+        "filename": "Filename",
+        "size": "Size"
+      },
+      "usefulLinks": {
+        "title": "Useful links",
+        "installation": "Installation instructions",
+        "documentation": "Documentation",
+        "support": "Support"
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "items": {
+          "installation": {
+            "question": "How do I install Treenshoter?",
+            "answer": "Follow the installation instructions specific to your platform. For macOS, open the .dmg file and drag the application to the Applications folder. For Windows, run the .exe installer. For Linux, use the appropriate format for your distribution (AppImage, DEB, RPM, etc.)."
+          },
+          "free": {
+            "question": "Is the download free?",
+            "answer": "Yes, Treenshoter is completely free and open source. You can download and use it at no cost."
+          },
+          "requirements": {
+            "question": "What are the system requirements?",
+            "answer": "Treenshoter requires macOS 10.15 or higher, Windows 10 or higher, or a modern Linux distribution. Check the download page for more platform-specific details."
+          },
+          "verify": {
+            "question": "How do I verify the file integrity?",
+            "answer": "You can verify the integrity of the downloaded file using SHA-256 checksums when available. This ensures the file was not corrupted during download."
+          },
+          "help": {
+            "question": "I need help with installation",
+            "answer": "Check the installation instructions section on the download page or contact our support through the documentation page."
+          }
+        }
+      }
     }
   },
   "about": {

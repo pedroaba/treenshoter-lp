@@ -94,11 +94,10 @@ export async function DownloadCard({
           <CardFooter className="p-0">
             {platform.available ? (
               platform.downloads.length === 1 ? (
-                // Single download option - direct link
+                // Single download option - use API
                 isDetailed ? (
                   <Link
-                    href={platform.downloads[0].url}
-                    download
+                    href={`/api/download/${platform.key}?type=${platform.downloads[0].id}`}
                     className="flex w-full items-center justify-center"
                   >
                     <Button className="w-full">
@@ -130,8 +129,7 @@ export async function DownloadCard({
                         {index > 0 && <DropdownMenuSeparator />}
                         <DropdownMenuItem asChild>
                           <Link
-                            href={download.url}
-                            download
+                            href={`/api/download/${platform.key}?type=${download.id}`}
                             className="flex flex-col items-start cursor-pointer"
                           >
                             <div className="flex items-center gap-2 w-full">

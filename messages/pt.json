@@ -115,6 +115,49 @@
           "5": "FreeBSD: Para sistemas FreeBSD. Siga as instruções específicas da sua distribuição."
         }
       }
+    },
+    "thankYou": {
+      "title": "Obrigado por baixar o Treenshoter!",
+      "message": "Seu download deve começar automaticamente em instantes. Se não começar, por favor use o link direto abaixo.",
+      "downloading": "Baixando...",
+      "manualDownload": "Download manual",
+      "directLink": "Link direto",
+      "fileInfo": {
+        "title": "Informações do arquivo",
+        "filename": "Nome do arquivo",
+        "size": "Tamanho"
+      },
+      "usefulLinks": {
+        "title": "Links úteis",
+        "installation": "Instruções de instalação",
+        "documentation": "Documentação",
+        "support": "Suporte"
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "items": {
+          "installation": {
+            "question": "Como instalar o Treenshoter?",
+            "answer": "Siga as instruções de instalação específicas para sua plataforma. Para macOS, abra o arquivo .dmg e arraste o aplicativo para a pasta Aplicativos. Para Windows, execute o instalador .exe. Para Linux, use o formato apropriado para sua distribuição (AppImage, DEB, RPM, etc.)."
+          },
+          "free": {
+            "question": "O download é gratuito?",
+            "answer": "Sim, o Treenshoter é completamente gratuito e open source. Você pode baixar e usar sem custos."
+          },
+          "requirements": {
+            "question": "Quais são os requisitos do sistema?",
+            "answer": "O Treenshoter requer macOS 10.15 ou superior, Windows 10 ou superior, ou uma distribuição Linux moderna. Verifique a página de download para mais detalhes específicos da sua plataforma."
+          },
+          "verify": {
+            "question": "Como verificar a integridade do arquivo?",
+            "answer": "Você pode verificar a integridade do arquivo baixado usando checksums SHA-256 quando disponíveis. Isso garante que o arquivo não foi corrompido durante o download."
+          },
+          "help": {
+            "question": "Preciso de ajuda com a instalação",
+            "answer": "Consulte a seção de instruções de instalação na página de download ou entre em contato com nosso suporte através da página de documentação."
+          }
+        }
+      }
     }
   },
   "about": {
